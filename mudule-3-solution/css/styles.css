@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-size: 16px;
+    color:black;
+    font-family: 'oxygen',sans-serif;
+}
+#header-nav{
+    background-color: #f6b319;
+    border-radius:0;
+    border:0;
+}
+.navbar-brand h1{
+    color: green;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    float:left;
+    
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+text-decoration: none;
+}
+#nav-list {
+    margin-top: 10px;
+    background-color: hotpink;
+}
+#nav-list a{
+    color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover{
+background-color: ivory;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear:left;
+    padding-top: -33px;
+  }
+  #m-title{
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color:blue;
+  }
+  .item{
+      background-color: cyan;
+      padding: 0;
+      margin: 0 2px 2px 0 ;
+      margin-left: 0px;
+      
+
+  }
+  .chicken,.beef,.sushi {
+      margin:0;
+      border: 1px solid black;
+      
+  }
+  p{
+      font-family: 'Times New Roman', Times, serif;
+      padding:10px;
+  }
+  h3{
+      margin: 0;
+  }
+  .chicken{
+      background-color:orangered;
+  }
+  .beef{
+   background-color: blue;
+  }
+  .sushi{
+      background-color: green;
+  }
+  
